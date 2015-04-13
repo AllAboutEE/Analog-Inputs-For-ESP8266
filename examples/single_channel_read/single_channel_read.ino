@@ -1,3 +1,16 @@
+/**
+ *  
+ * @details Need more analog pins for your ESP8266? This 
+ *        example shows how to read and print a digital and
+ *        analog value from the MCP3021A0 converter.
+ *  
+ * @link  You can buy an MCP3021 array breakout board from this 
+ *        URL:
+ *  
+ * @note Converter datasheet 
+ *       http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf
+ * 
+ */
 #include <AllAboutEE_MCP3021.h>
 #include <Wire.h>
 
