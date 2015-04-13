@@ -12,7 +12,7 @@ uint16_t AllAboutEE::MCP3021::read(int deviceId)
   uint8_t data[2];
   uint16_t result = 0x00;
   
-  Wire.requestFrom(0x48, 2);
+  Wire.requestFrom(MCP3021_I2C_ADDRESS|deviceId, 2);
 
   for(int i =0; Wire.available() > 0;i++)
   {
