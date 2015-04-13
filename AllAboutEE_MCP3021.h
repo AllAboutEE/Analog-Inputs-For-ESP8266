@@ -1,6 +1,7 @@
 #ifndef _ALLABOUTEE_MCP3021_H
 #define _ALLABOUTEE_MCP3021_H
 
+#include <Wire.h>
 
 namespace AllAboutEE
 {
@@ -8,11 +9,11 @@ namespace AllAboutEE
     {
     public:
         void begin(int sda, int scl);
-        int read(int deviceId);
-        int read(int deviceId, int vdd);
+		uint16_t read(int deviceId);
+        float read(int deviceId, float vdd); //returns analog value
     private:
         static const int MCP3021_I2C_ADDRESS = 0x48;
-    }
+    };
 }
 
 #endif
