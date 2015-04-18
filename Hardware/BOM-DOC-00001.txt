@@ -1,0 +1,11 @@
+Partlist exported from C:/Users/Miguel/Documents/eagle/MCP3021A-Array-Breakout/Hardware/DOC-00001.sch at 3/19/2015 11:53:24 AM
+
+Part Value            Device         Package     Description                MPN              PRICE STORE              
+C1   0.1uF            C-USC0805K     C0805K      CAPACITOR, American symbol VJ0805Y104MXXAC  0.06  mouser.com         
+JP1  v                PINHD-1X8      1X08        PIN HEADER                 825433-8         0.84  mouser.com         
+R1   4.7k             R-US_R0805     R0805       RESISTOR, American symbol  CRCW08054K70FKEA 0.08  mouser.com         
+R2   4.7k             R-US_R0805     R0805       RESISTOR, American symbol  CRCW08054K70FKEA 0.08  mouser.com         
+U$1  MCP3021A0T-E/OT  MCP3021XX-X/OT SOT-23-5_MC                            MCP3021A0T-E/OT  1.07  microchipdirect.com
+U$2  MCP3021A1T-E/OT  MCP3021XX-X/OT SOT-23-5_MC                            MCP3021A1T-E/OT  1.07  microchipdirect.com
+U$3  MCP3021A2T-E/OT  MCP3021XX-X/OT SOT-23-5_MC                            MCP3021A2T-E/OT  1.07  microchipdirect.com
+U$4  MCP3021A3T-E/OT  MCP3021XX-X/OT SOT-23-5_MC                            MCP3021A3T-E/OT  1.07  microchipdirect.com
