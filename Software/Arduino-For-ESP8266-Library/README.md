@@ -1,4 +1,5 @@
-# MCP3021 Library for ESP8266s With Arduino Code
+# MCP3021 Library for ESP8266s
+
 An Arduino library for the Microchip MCP3021 A/D converter.
 
 The ESP8266 is capable of running Arduino sketches (e.g. the examples in this library).
